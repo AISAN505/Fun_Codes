@@ -1,7 +1,7 @@
 #!/usr/bin/env python -i
 Acc_input = float(input("The cash you want to play with?"))
 Acc_amont = Acc_input
-
+# dh is my country currency, you can change to yours e.g $ £ € etc.
 while True:
     print("---------------------------------")
     StartQ = input("Do you wanna play? Y/N ")
