@@ -12,4 +12,4 @@ def isValider(num):
         
         
 if __name__ == '__main__':
-    isValider("3523 6552 1234 5469")
+    isValider("1111 2222 3333 4444")
