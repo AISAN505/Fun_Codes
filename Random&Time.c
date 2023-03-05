@@ -3,12 +3,12 @@
 #include <stdio.h>
 
 void main() {
-    // This program will be helpful, or is it?
+    // Fetch the system's date and time
     srand(time(NULL));
+    // Setting rand1 to maximus number RAND_MAX
     int rand1 = rand();
     printf("Random number between 0 and %d: %d\n", RAND_MAX, (int)rand1);
-    int min = 0;
-    int max = 100;
+    int min = 0, max = 100;
     float rand2 = (float)rand() * max / RAND_MAX + 1;
     int round = (int)rand2;
     printf("Random number between %d and %d: %d (%f)\n", min, max, round, rand2);
